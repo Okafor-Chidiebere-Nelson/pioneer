@@ -15,8 +15,8 @@ function ImageComponent() {
       </div>
 
       <div className="social-media-info-container">
-        <button className="email-button"> <span className="email-image-span" ><i class="fa-solid fa-envelope"></i></span> Email</button>
-        <button className="linkedin-button"> <span className="email-image-span" ><i class="fa-brands fa-linkedin"></i></span> Linkedin</button>
+        <button className="email-button"> <span className="email-image-span" ><i className="fa-solid fa-envelope"></i></span> Email</button>
+        <button className="linkedin-button"> <span className="email-image-span" ><i className="fa-brands fa-linkedin"></i></span> Linkedin</button>
       </div>
     </div>
   )

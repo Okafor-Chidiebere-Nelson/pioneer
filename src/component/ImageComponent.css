@@ -1,5 +1,6 @@
 .first-component {
   width: 25em;
+  margin-block-end: 1em;
 }
 
 .image-container {

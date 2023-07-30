@@ -7,7 +7,6 @@ import "./Footer.css"
 
 function Footer() {
   return (
-    <div>
       <div className="social-media-icon-container">
         <div className="twitter-container">
         <img src={Twitter} alt="" className="twitter-image" />
@@ -25,7 +24,6 @@ function Footer() {
         <img src={Github} alt="" className="twitter-image" />
         </div>
       </div>
-    </div>
   )
 }
 
