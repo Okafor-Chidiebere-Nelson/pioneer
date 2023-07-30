@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --silver: #bfbfbf;
+}
+
+.container {
+  color: var(--white);
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25em;
+  border: 1px solid var(--silver);
+  border-radius: 1em;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,10 @@
+:root {
+  --white: #fff;
+  --black: #000;
+}
+
+.social-media-icon-container,
+.twitter-image {
+  color: var(--white);
+  background-color: var(--white);
+}

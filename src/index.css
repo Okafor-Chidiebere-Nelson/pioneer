@@ -1,0 +1,14 @@
+:root {
+  --black: #000;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}

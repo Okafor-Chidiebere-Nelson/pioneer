@@ -1,0 +1,12 @@
+.first-component {
+  width: 25em;
+}
+
+.image-container {
+  width: 25em;
+}
+
+.image-itself {
+  width: 100%;
+  aspect-ratio: fit;
+}
