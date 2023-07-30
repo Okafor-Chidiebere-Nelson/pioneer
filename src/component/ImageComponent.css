@@ -10,3 +10,32 @@
   width: 100%;
   aspect-ratio: fit;
 }
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info-container > *:not(.first) {
+  /* font-weight: 400; */
+  font-style: italic;
+  margin-block-end: 1em;
+}
+
+.info-container > *:not(.second) {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.social-media-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-media-info-container > * {
+  padding: 1em;
+  font-size: 1em;
+}

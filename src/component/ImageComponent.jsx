@@ -10,13 +10,13 @@ function ImageComponent() {
       </div>
 
       <div className="info-container">
-        <span className="info-span">Okafor Nelson</span>
-        <span className="info-span">Frontend Developer</span>
+       <h2 className="name-info-span"><span className="info-span first">Okafor Nelson</span></h2> 
+        <span className="info-span second">Frontend Developer</span>
       </div>
 
       <div className="social-media-info-container">
-        <button className="email-button">Email</button>
-        <button className="linkedin-button">Linkedin</button>
+        <button className="email-button"> <span className="email-image-span" ><i class="fa-solid fa-envelope"></i></span> Email</button>
+        <button className="linkedin-button"> <span className="email-image-span" ><i class="fa-brands fa-linkedin"></i></span> Linkedin</button>
       </div>
     </div>
   )
